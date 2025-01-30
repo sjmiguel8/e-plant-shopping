@@ -112,12 +112,12 @@ function ProductList({ onCartClick }) {
                         <h3>Where Green Meets Serenity</h3>
                     </a>
                 </div>
-                <div style={{flex: 1, textAlign: 'center'}}>
-                    <a href="/" style={{textDecoration: 'none', color: 'white'}}>Plants</a>
+                <div className="navbar-center">
+                    <a href="/"></a>
                 </div>
                 <div>
                     <a href="#" onClick={onCartClick} style={{textDecoration: 'none', color: 'white'}}>
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="45" width="45">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" height="55" width="55">
                             <rect width="256" height="256" fill="none"></rect>
                             <circle cx="80" cy="216" r="12"></circle>
                             <circle cx="184" cy="216" r="12"></circle>
